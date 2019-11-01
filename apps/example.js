@@ -20,10 +20,10 @@ console.log(puppeteer, ":value of puppeteer");
     console.log(page, ":value of page");
     console.log(version, ":value of version");
 
-    await page.goto('https://opini.id');
+    await page.goto('https://ngarsa.com');
     await page.screenshot({
-        path: './screenshot/example-puppeteer-full-v2.png',
-        fullPage: true
+        path: './screenshot/example-puppeteer-ngarsa.png',
+        fullPage: true,
     });
     await browser.close();
 })();
